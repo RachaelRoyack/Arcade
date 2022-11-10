@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Mochiy+Pop+One&family=Permanent+Marker&family=Press+Start+2P&family=Shrikhand&display=swap');
+/* font-family: 'Permanent Marker', cursive;
+ font-family: 'Press Start 2P', cursive; 
+ font-family: 'Shrikhand', cursive;Marker&family=Press+Start+2P&family=Shrikhand&display=swap'); */ 
+
+body {
+    background-color: #02040f;
+    font-size: 2rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+header {
+    margin: 5%;
+}
+
+h1 {
+    color: #ef709d;
+    text-align: center;
+    padding: 4%;
+}
+
+p {
+    color: #ffcb77;
+    text-align: justify;
+}
+
+p:nth-child(3) {
+    text-align: center;
+    color: #ffcab1;
+}
+
+ul {
+    border: .2rem;
+    border-color: #abdafc;
+    border-style: dashed;
+    padding: 1rem;
+    list-style-type: none;
+}
+
+li:first-child {
+    padding: 0rem 0rem 1rem 0rem;
+}
+a {
+    color: #beffc7;
+    text-decoration: none;
+}
+
+a:focus {
+    color: crimson;
+}

@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!-- <link rel="icon" href="data:;base64,=">   added due to 404 error based on google search -->
+    <link rel="stylesheet" href="style.css">
+    <title>Tic-Tac-Toe</title>
+</head>
+<body>
+    <header>
+        <h1>Tic-Tac-Toe</h1>
+    </header>
+    <div class="playerNames">
+        <span id="submitNames">Enter Names Here:</span><input type="text">
+        <button id="submitNamesButton">Submit Player Name</button>
+    </div>
+    <div id="gameOverBox">
+        <h2 id="playerWinBanner">Rachael Wins!</h2>
+        <button id="resetButton">Play Again</button>
+    </div>
+    <main id="board">
+        <div class="cell" id="0,0"></div>
+        <div class="cell" id="0,1"></div>
+        <div class="cell" id="0,2"></div>
+
+        <div class="cell" id="1,0"></div>
+        <div class="cell" id="1,1"></div>
+        <div class="cell" id="1,2"></div>
+
+        <div class="cell" id="2,0"></div>
+        <div class="cell" id="2,1"></div>
+        <div class="cell" id="2,2"></div>
+    </main>
+    <section class="playerOrder">
+        <p id="playerOne">PlayerOne (X's):</p>
+        <p id="playerTwo">PlayerTwo (O's):</p>
+    </section>
+</body>
+    <script src="app.js"></script>
+</html>
